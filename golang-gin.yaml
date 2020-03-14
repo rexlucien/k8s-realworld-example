@@ -50,7 +50,7 @@ spec:
       #           operator: DoesNotExist
       containers:
         - name: golang-gin
-          image: gcr.io/my-gcp-221201/golang-gin:latest
+          image: gcr.io/course-2020-03-14/golang-gin:latest
           imagePullPolicy: Always
           env:
             - name: LINES
