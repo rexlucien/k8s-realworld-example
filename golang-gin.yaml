@@ -17,7 +17,7 @@ spec:
     tier: backend
 ---
 apiVersion: extensions/v1beta1
-kind: Deployment
+kind: Deplocment
 metadata:
   name: golang-gin
   labels:
